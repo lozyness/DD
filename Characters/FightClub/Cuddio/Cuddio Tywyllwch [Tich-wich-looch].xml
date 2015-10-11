@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+    <character>
+        <name>Cuddio Tywyllwch [Tich-wich-looch]</name>
+        <race>
+            <name>Human</name>
+            <feat>
+                <name>Languages</name>
+                <text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
+            </feat>
+            <mod>
+                <category>1</category>
+                <type>4</type>
+                <value>1</value>
+            </mod>
+            <mod>
+                <category>1</category>
+                <type>3</type>
+                <value>1</value>
+            </mod>
+        </race>
+        <class>
+            <id>1007</id>
+            <name>Wizard</name>
+            <spellAbility>3</spellAbility>
+            <slots>3,2,0,0,0,0,0,0,0,0,</slots>
+            <slotsCurrent>3,2,0,0,0,0,0,0,0,0,</slotsCurrent>
+            <spell>
+                <name>Fire Bolt</name>
+                <school>5</school>
+                <time>1 action</time>
+                <range>120 feet</range>
+                <components>V, S</components>
+                <duration>Instantaneous</duration>
+                <text>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried. 
+	This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
+
+Source: Player's Handbook p. 242</text>
+                <roll>1d10</roll>
+                <sclass>Fighter (Eldritch Knight)</sclass>
+                <sclass>Rogue (Arcane Trickster)</sclass>
+                <sclass>Sorcerer</sclass>
+                <sclass>Wizard</sclass>
+            </spell>
+            <spell>
+                <name>Minor Illusion</name>
+                <school>6</school>
+                <time>1 action</time>
+                <range>30 feet</range>
+                <components>S, M </components>
+                <duration>1 minute</duration>
+                <text>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again. 
+	If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends. 
+	If you create an image of an object, such as a chair, muddy footprints, or a small chest, it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it. 
+	If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
+
+Source: Player's Handbook p. 260</text>
+                <sclass>Fighter (Eldritch Knight)</sclass>
+                <sclass>Rogue (Arcane Trickster)</sclass>
+                <sclass>Bard</sclass>
+                <sclass>Sorcerer</sclass>
+                <sclass>Warlock</sclass>
+                <sclass>Wizard</sclass>
+            </spell>
+            <spell>
+                <name>Prestidigitation</name>
+                <school>8</school>
+                <time>1 action</time>
+                <range>10 feet</range>
+                <components>V, S</components>
+                <duration>Up to 1 hour</duration>
+                <text>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range: 
+	• You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor. ,
+	• You instantaneously light or snuff out a candle, a torch, or a small campfire. 
+	• You instantaneously clean or soil an object no larger than 1 cubic foot. 
+	• You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour. 
+	• You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour. 
+	• You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn. 
+	If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
+
+Source: Player's Handbook p. 267</text>
+                <sclass>Fighter (Eldritch Knight)</sclass>
+                <sclass>Rogue (Arcane Trickster)</sclass>
+                <sclass>Bard</sclass>
+                <sclass>Sorcerer</sclass>
+                <sclass>Warlock</sclass>
+                <sclass>Wizard</sclass>
+            </spell>
+            <spell>
+                <name>Color Spray</name>
+                <level>1</level>
+                <school>6</school>
+                <time>1 action</time>
+                <range>Self (15-foot cone)</range>
+                <components>V, S, M (a pinch of powder or sand that is colored red, yellow, and blue)</components>
+                <duration>1 round</duration>
+                <text>A dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can't see). 
+	Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for the creature to be affected. 
+	
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.
+	
+Blinded:
+• A blinded creature can't see and automatically fails any ability check that requires sight.
+	
+• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.
+
+Source: Player's Handbook p. 222</text>
+                <roll>6d10</roll>
+                <sclass>Rogue (Arcane Trickster)</sclass>
+                <sclass>Sorcerer</sclass>
+                <sclass>Wizard</sclass>
+            </spell>
+            <spell>
+                <name>Disguise Self</name>
+                <level>1</level>
+                <school>6</school>
+                <time>1 action</time>
+                <range>Self</range>
+                <components>V,S</components>
+                <duration>1 hour</duration>
+                <text>You make yourself, including your clothing, armor, weapons, and other belongings on your person, look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you. 
+	The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of some one who reaches out to touch you would bump into you while it was seemingly still in midair. 
+	To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.
+
+Source: Player's Handbook p. 233</text>
+                <sclass>Rogue (Arcane Trickster)</sclass>
+                <sclass>Bard</sclass>
+                <sclass>Sorcerer</sclass>
+                <sclass>Wizard</sclass>
+            </spell>
+            <spell>
+                <name>Identify</name>
+                <level>1</level>
+                <school>3</school>
+                <ritual>1</ritual>
+                <time>1 minute</time>
+                <range>Touch</range>
+                <components>V, S, M (a pearl worth at least 100 gp and an owl feather) </components>
+                <duration>Instantaneous</duration>
+                <text>You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it. 
+	If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.
+
+Source: Player's Handbook p. 252</text>
+                <sclass>Bard</sclass>
+                <sclass>Wizard</sclass>
+            </spell>
+            <spell>
+                <name>Illusory Script</name>
+                <level>1</level>
+                <school>6</school>
+                <ritual>1</ritual>
+                <time>1 minute</time>
+                <range>Touch</range>
+                <components>S, M (a lead-based ink worth at least 10 gp, which the spell consumes)</components>
+                <duration>10 days</duration>
+                <text>You write on parchment, paper, or some other suitable writing material and imbue it with a potent illusion that lasts for the duration. 
+	To you and any creatures you designate when you cast the spell, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know. 
+	Should the spell be dispelled, the original script and the illusion both disappear. 
+	A creature with truesight can read the hidden message.
+
+Source: Player's Handbook p. 252</text>
+                <sclass>Rogue (Arcane Trickster)</sclass>
+                <sclass>Bard</sclass>
+                <sclass>Warlock</sclass>
+                <sclass>Wizard</sclass>
+            </spell>
+            <spell>
+                <name>Tenser's Floating Disk</name>
+                <level>1</level>
+                <school>2</school>
+                <ritual>1</ritual>
+                <time>1 action</time>
+                <range>30 feet</range>
+                <components>V, S, M (a drop of mercury)</components>
+                <duration>1 hour</duration>
+                <text>This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground. 
+	The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can more across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.
+	If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends.
+
+Source: Player's Handbook p. 282</text>
+                <sclass>Wizard</sclass>
+            </spell>
+            <spell>
+                <name>Thunderwave</name>
+                <level>1</level>
+                <school>5</school>
+                <time>1 action</time>
+                <range>Self (15-foot cube)</range>
+                <components>V, S</components>
+                <duration>Instantaneous</duration>
+                <text>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. 
+	In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet. 
+	
+At Higher Levels: 
+	When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+
+Source: Player's Handbook p. 282</text>
+                <roll>2d8</roll>
+                <sclass>Fighter (Eldritch Knight)</sclass>
+                <sclass>Bard</sclass>
+                <sclass>Druid</sclass>
+                <sclass>Sorcerer</sclass>
+                <sclass>Wizard</sclass>
+            </spell>
+            <feat>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+ 
+Armor: none
+ 
+Weapons: daggers, darts, slings, quarterstaffs, light crossbows
+ 
+Tools: none
+ 
+Skills: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion</text>
+            </feat>
+            <feat>
+                <name>Starting Equipment</name>
+                <text>You begin play with the following equipment, in addition to any equipment provided by your background.
+ 
+• (a) a quarterstaff or (b) a dagger
+• (a) a component pouch or (b) an arcane focus
+• (a) a scholar's pack or (b) an explorer's pack
+• A spellbook
+ 
+Alternatively, you may start with 4d4 x 10 gp and choose your own equipment.</text>
+            </feat>
+            <feat>
+                <name>Spellcasting</name>
+                <text>As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list. 
+	 
+Cantrips:
+	At 1st level, you know three cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 4th level, and another at 10th level.
+	 
+Spellbook:
+	At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice. 
+	 
+Preparing and Casting Spells:
+	The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+	You prepare the list of wizard spells that are available for you to cast. To do so. choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.
+	For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+	You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list. 
+	 
+Spellcasting Ability:
+	Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
+	Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
+	Spell attack modifier = your proficiency bonus + your intelligence modifier 
+	 
+Ritual Casting:
+	You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared. 
+	 
+Spellcasting Focus:
+	You can use an arcane focus (found in chapter 5) as a spellcasting focus for your wizard spells. 
+	 
+Learning Spells of 1st Level and Higher:
+	Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook.</text>
+            </feat>
+            <feat>
+                <name>Spellbook</name>
+                <text>The spells of 1st level and higher that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.
+	 
+Copying a Spell into the Book:
+	When you find a wizard spell of 1st level or higher that is of a level which you can prepare, you can add it to your spellbook if it is of a level for which you have spell slots and if you can spare the time to decipher and copy it.
+	Copying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.
+	For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.
+	 
+Replacing the Book:
+	You can copy a spell from your own spellbook into another book — for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.
+	If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.
+	 
+The Book's Appearance:
+	Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.</text>
+            </feat>
+            <feat>
+                <name>Arcane Recovery</name>
+                <text>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
+	For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</text>
+            </feat>
+            <proficiency>102</proficiency>
+            <proficiency>3</proficiency>
+            <proficiency>105</proficiency>
+            <proficiency>106</proficiency>
+            <proficiency>4</proficiency>
+            <autolevel>
+                <slots>3,2,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Starting Proficiencies</name>
+                    <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+ 
+Armor: none
+ 
+Weapons: daggers, darts, slings, quarterstaffs, light crossbows
+ 
+Tools: none
+ 
+Skills: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion</text>
+                </feat>
+                <feat>
+                    <name>Starting Equipment</name>
+                    <text>You begin play with the following equipment, in addition to any equipment provided by your background.
+ 
+• (a) a quarterstaff or (b) a dagger
+• (a) a component pouch or (b) an arcane focus
+• (a) a scholar's pack or (b) an explorer's pack
+• A spellbook
+ 
+Alternatively, you may start with 4d4 x 10 gp and choose your own equipment.</text>
+                </feat>
+                <feat>
+                    <name>Spellcasting</name>
+                    <text>As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list. 
+	 
+Cantrips:
+	At 1st level, you know three cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 4th level, and another at 10th level.
+	 
+Spellbook:
+	At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice. 
+	 
+Preparing and Casting Spells:
+	The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+	You prepare the list of wizard spells that are available for you to cast. To do so. choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.
+	For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+	You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list. 
+	 
+Spellcasting Ability:
+	Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
+	Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
+	Spell attack modifier = your proficiency bonus + your intelligence modifier 
+	 
+Ritual Casting:
+	You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared. 
+	 
+Spellcasting Focus:
+	You can use an arcane focus (found in chapter 5) as a spellcasting focus for your wizard spells. 
+	 
+Learning Spells of 1st Level and Higher:
+	Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook.</text>
+                </feat>
+                <feat>
+                    <name>Spellbook</name>
+                    <text>The spells of 1st level and higher that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.
+	 
+Copying a Spell into the Book:
+	When you find a wizard spell of 1st level or higher that is of a level which you can prepare, you can add it to your spellbook if it is of a level for which you have spell slots and if you can spare the time to decipher and copy it.
+	Copying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.
+	For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.
+	 
+Replacing the Book:
+	You can copy a spell from your own spellbook into another book — for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.
+	If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.
+	 
+The Book's Appearance:
+	Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.</text>
+                </feat>
+                <feat>
+                    <name>Arcane Recovery</name>
+                    <text>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
+	For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>2</level>
+                <slots>3,3,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Arcane Tradition</name>
+                    <text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
+	Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Artificer</name>
+                    <text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
+	Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Infuse Potions (Artificer)</name>
+                    <text>Starting at 2nd level, you can produce magic potions. You spend 10 minutes focusing your magic on a vial of mundane water and expend a spell slot to transform it into a potion. Once you have expended a spell slot to create a potion, you cannot regain that slot until the potion is consumed or after 1 week, at which time the potion loses its effectiveness. You can create up to three potions at a time; creating a fourth potion causes the oldest currently active one to immediately lose its potency. If that potion has been consumed, its effects immediately end. 
+	The spell slot you expend determines the type of potion you can create. See chapter 7 of the Dungeon Master's Guide for complete rules on potions.
+	 
+1st — Climbing, growth, or healing
+	2nd — Mind reading or greater healing
+3rd — Invisibility, superior healing, or water breathing
+	4th — Resistance</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Infuse Scrolls (Artificer)</name>
+                    <text>At 2nd level, you can also tap into your reserves of magical energy to create spell scrolls. You can use your Arcane Recovery ability to create a scroll instead of regaining expended spell slots.
+	You must finish a short rest, then spend 10 minutes with parchment, quill, and ink to create a spell scroll containing one spell chosen from those you know. Subtract the spell's level from the total levels worth of slots you regain using Arcane Recovery. This reduction to your Arcane Recovery applies until you use the scroll and then finish a long rest.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>School of Abjuration</name>
+                    <text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
+	Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Abjuration Savant (School of Abjuration)</name>
+                    <text>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an abjuration spell into your spellbook is halved.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Arcane Ward (School of Abjuration)</name>
+                    <text>Starting at 2nd level, you can weave magic around yourself for protection. When you cast an abjuration spell of 1st level or higher, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts until you finish a long rest. The ward has hit points equal to twice your wizard level + your Intelligence modifier. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage.
+	While the ward has 0 hit points, it can't absorb damage, but its magic remains. Whenever you cast an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.
+	Once you create the ward, you can't create it again until you finish a long rest.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>School of Conjuration</name>
+                    <text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
+	Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Conjuration Savant (School of Conjuration)</name>
+                    <text>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a conjuration spell into your spellbook is halved.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Minor Conjuration (School of Conjuration)</name>
+                    <text>Starting at 2nd level when you select this school, you can use your action to conjure up an inanimate object in your hand or on the ground in an unoccupied space that you can see within 10 feet of you. This object can be no larger than 3 feet on a side and weigh no more than 10 pounds, and its form must be that of a nonmagical object that you have seen. The object is visibly magical, radiating dim light out to 5 feet.
+	The object disappears after 1 hour, when you use this feature again, or if it takes any damage.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>School of Divination</name>
+                    <text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
+	Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Divination Savant (School of Divination)</name>
+                    <text>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a divination spell into your spellbook is halved.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Portent (School of Divination)</name>
+                    <text>Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.
+	Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>School of Enchantment</name>
+                    <text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
+	Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Enchantment Savant (School of Enchantment)</name>
+                    <text>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an enchantment spell into your spellbook is halved.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Hypnotic Gaze (School of Enchantment)</name>
+                    <text>Starting at 2nd level when you choose this school, your soft words and enchanting gaze can magically enthrall another creature. As an action, choose one creature that you can see within 5 feet of you. If the target can see or hear you, it must succeed on a Wisdom saving throw against your wizard spell save DC or be charmed by you until the end of your next turn. The charmed creature's speed drops to 0, and the creature is incapacitated and visibly dazed.
+	On subsequent turns, you can use your action to maintain this effect, extending its duration until the end of your next turn. However, the effect ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage.
+	Once the effect ends, or if the creature succeeds on its initial saving throw against this effect, you can't use this feature on that creature again until you finish a long rest.
+	 
+Charmed:
+• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.
+	
+• The charmer has advantage on any ability check to interact socially with the creature.
+	 
+Incapacitated:
+• An incapacitated creature can't take actions or reactions.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>School of Evocation</name>
+                    <text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
+	Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Evocation Savant (School of Evocation)</name>
+                    <text>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Sculpt Spells (School of Evocation)</name>
+                    <text>Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1+the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>School of Illusion</name>
+                    <text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
+	Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Illusion Savant (School of Illusion)</name>
+                    <text>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an illusion spell into your spellbook is halved.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Improved Minor Illusion (School of Illusion)</name>
+                    <text>When you choose this school at 2nd level, you learn the minor illusion cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known.
+	When you cast minor illusion, you can create both a sound and an image with a single casting of the spell.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>School of Necromancy</name>
+                    <text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
+	Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Necromancy Savant (School of Necromancy)</name>
+                    <text>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a necromancy spell into your spellbook is halved.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Grim Harvest (School of Necromancy)</name>
+                    <text>At 2nd level, you gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the School of Necromancy. You don't gain this benefit for killing constructs or undead.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>School of Transmutation</name>
+                    <text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
+	Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Transmutation Savant (School of Transmutation)</name>
+                    <text>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a transmutation spell into your spellbook is halved.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Minor Alchemy (School of Transmutation)</name>
+                    <text>Starting at 2nd level when you select this school, you can temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), iron, copper, or silver, transforming it into a different one of those materials. For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. After 1 hour, or until you lose your concentration (as if you were concentrating on a spell), the material reverts to its original substance.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>3</level>
+                <slots>3,4,2,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>4</level>
+                <slots>4,4,3,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Ability Score Improvement</name>
+                    <text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM uses the optional Feats, you can instead take a feat.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>5</level>
+                <slots>3,4,3,2,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>6</level>
+                <slots>3,4,3,3,0,0,0,0,0,0,</slots>
+                <feat>
+                    <optional>1</optional>
+                    <name>Infuse Weapons and Armor (Artificer)</name>
+                    <text>Beginning at 6th level, you can produce magic weapons and armor. You spend 10 minutes focusing your magic on a mundane weapon, suit of armor, shield, or bundle of twenty pieces of ammunition, and expend a spell slot to infuse it with magical energy. The magic item retains its enhancement for 8 hours or until used (in the case of magic ammunition). You can infuse only one item at a time; if you infuse a second one, the first immediately loses its potency. Once you have expended a spell slot to create such an item, you cannot regain that slot until the item becomes nonmagical.
+	The spell slot you expend determines the type of weapon, armor, or shield you can create.
+	2nd — +1 ammunition (20 pieces)
+3rd — +1 weapon or +1 shield
+	4th — +1 armor
+5th — +2 weapon or +2 ammunition (20 pieces)
+	6th — +2 armor</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Projected Ward (School of Abjuration)</name>
+                    <text>Starting at 6th level, when a creature that you can see within 30 feet of you takes damage, you can use your reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 hit points, the warded creature takes any remaining damage.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Benign Transposition (School of Conjuration)</name>
+                    <text>Starting at 6th level, you can use your action to teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Small or Medium creature. If that creature is willing, you both teleport, swapping places.
+	Once you use this feature, you can't use it again until you finish a long rest or you cast a conjuration spell of 1st level or higher.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Expert Divination (School of Divination)</name>
+                    <text>Beginning at 6th level, casting divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a divination spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can't be higher than 5th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Instinctive Charm (School of Enchantment)</name>
+                    <text>Beginning at 6th level, when a creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to divert the attack, provided that another creature is within the attack's range. The attacker must make a Wisdom saving throw against your wizard spell save DC. On a failed save, the attacker must target the creature that is closest to it, not including you or itself. If multiple creatures are closest, the attacker chooses which one to target. On a successful save, you can't use this feature on the attacker again until you finish a long rest.
+	You must choose to use this feature before knowing whether the attack hits or misses. Creatures that can't be charmed are immune to this effect.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Potent Cantrip (School of Evocation)</name>
+                    <text>Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Malleable Illusions (School of Illusion)</name>
+                    <text>Starting at 6th level, when you cast an illusion spell that has a duration of 1 minute or longer, you can use your action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided that you can see the illusion.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Undead Thralls (School of Necromancy)</name>
+                    <text>At 6th level, you add the animate dead spell to your spellbook if it is not there already. When you cast animate dead, you can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate.
+	Whenever you create an undead using a necromancy spell, it has additional benefits.
+	
+• The creature's hit point maximum is increased by an amount equal to your wizard level.
+	
+• The creature adds your proficiency bonus to its weapon damage rolls.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Transmuter's Stone (School of Transmutation)</name>
+                    <text>Starting at 6th level, you can spend 8 hours creating a transmuter's stone that stores transmutation magic. You can benefit from the stone yourself or give it to another creature. A creature gains a benefit of your choice as long as the stone is in the creature's possession. When you create the stone, choose the benefit from the following options.
+	
+• Darkvision out to a range of 60 feet, as described in chapter 8
+	
+• An increase to speed of 10 feet while the creature is unencumbered
+	
+• Proficiency in Constitution saving throws
+	
+• Resistance to acid, cold, fire, lightning, or thunder damage (your choice whenever you choose this benefit).
+	 
+	Each time you cast a transmutation spell of 1st level or higher, you can change the effect of your stone if the stone is on your person.
+	If you create a new transmuter's stone, the previous one ceases to function.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>7</level>
+                <slots>3,4,3,3,1,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>8</level>
+                <slots>3,4,3,3,2,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>9</level>
+                <slots>3,4,3,3,3,1,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>10</level>
+                <slots>5,4,3,3,3,2,0,0,0,0,</slots>
+                <feat>
+                    <optional>1</optional>
+                    <name>Superior Artificer (Artificer)</name>
+                    <text>Starting at 10th level, you can create a second magic weapon, suit of armor, shield, or bundle of ammunition using your Infuse Weapons and Armor ability. Attempting to infuse a third item causes the oldest one to immediately lose its potency.
+	You can also create one additional potion or scroll using Infuse Potions or Infuse Scrolls.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Improved Abjuration (School of Abjuration)</name>
+                    <text>Beginning at 10th level, when you cast an abjuration spell that requires you to make an ability check as a part of casting that spell (as in counterspell and dispel magic), you add your proficiency bonus to that ability check.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Focused Conjuration (School of Conjuration)</name>
+                    <text>Beginning at 10th level, while you are concentrating on a conjuration spell, your concentration can't be broken as a result of taking damage.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>The Third Eye (School of Divination)</name>
+                    <text>Starting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are incapacitated or you take a short or long rest. You can't use the feature again until you finish a rest.
+	 
+Darkvision.
+	You gain darkvision out to a range of 60 feet, as described in chapter 8. 
+	 
+Ethereal Sight.
+	You can see into the Ethereal Plane within 60 feet of you. 
+	 
+Greater Comprehension.
+	You can read any language. 
+	 
+See Invisibility.
+	You can see invisible creatures and objects within 10 feet of you that are within line of sight.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Split Enchantment (School of Enchantment)</name>
+                    <text>Starting at 10th level, when you cast an enchantment spell of 1st level or higher that targets only one creature, you can have it target a second creature.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Empowered Evocation (School of Evocation)</name>
+                    <text>Beginning at 10th level, you can add your Intelligence modifier to the damage roll of any wizard evocation spell you cast.  If a spell allows you to make multiple damage rolls, add your modifier to only one roll.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Illusory Step (School of Illusion)</name>
+                    <text>Beginning at 10th level, you can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.
+	Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Inured to Undeath (School of Necromancy)</name>
+                    <text>Beginning at 10th level, you have resistance to necrotic damage, and your hit point maximum can't be reduced. You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Shapechanger (School of Transmutation)</name>
+                    <text>At 10th level, you add the polymorph spell to your spellbook, if it is not there already. You can cast polymorph without expending a spell slot. When you do so, you can target only yourself and transform into a beast whose challenge rating is 1 or lower.
+	Once you cast polymorph in this way, you can't do so again until you finish a short or long rest, though you can still cast it normally using an available spell slot.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>11</level>
+                <slots>5,4,3,3,3,2,1,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>12</level>
+                <slots>5,4,3,3,3,2,1,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>13</level>
+                <slots>5,4,3,3,3,2,1,1,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>14</level>
+                <slots>5,4,3,3,3,2,1,1,0,0,</slots>
+                <feat>
+                    <optional>1</optional>
+                    <name>Master Artificer (Artificer)</name>
+                    <text>On reaching 14th level, your mastery of arcane magic allows you to produce a variety of magic items. You can create a single item chosen from Magic Item Tables A and B in chapter 7 of the Dungeon Master's Guide. It takes you 1 week to produce such an item, and you must rest for 1 month before using this ability to craft another item.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Spell Resistance (School of Abjuration)</name>
+                    <text>Starting at 14th level, you have advantage on saving throws against spells.
+	Furthermore, you have resistance against the damage of spells.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Durable Summons (School of Conjuration)</name>
+                    <text>Starting at 14th level, any creature that you summon or create with a conjuration spell has 30 temporary hit points.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Greater Portent (School of Divination)</name>
+                    <text>Starting at 14th level, the visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. You roll three d20s for your Portent feature, rather than two.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Alter Memories (School of Enchantment)</name>
+                    <text>At 14th level, you gain the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm one or more creatures, you can alter one creature's understanding so that it remains unaware of being charmed.
+	Additionally, once before the spell expires, you can use your action to try to make the chosen creature forget some of the time it spent charmed. The creature must succeed on an Intelligence saving throw against your wizard spell save DC or lose a number of hours of its memories equal to 1 + your Charisma modifier (minimum 1). You can make the creature forget less time, and the amount of time can't exceed the duration of your enchantment spell.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Overchannel (School of Evocation)</name>
+                    <text>Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.
+	The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d 12. This damage ignores resistance and immunity.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Illusory Reality (School of Illusion)</name>
+                    <text>By 14th level, you have learned the secret of weaving shadow magic into your illusions to give them a semireality. When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross.
+	The object can't deal damage or otherwise directly harm anyone.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Command Undead (School of Necromancy)</name>
+                    <text>Starting at 14th level, you can use magic to bring undead under your control, even those created by other wizards. As an action, you can choose one undead that you can see within 60 feet of you. That creature must make a Charisma saving throw against your wizard spell save DC. If it succeeds, you can't use this feature on it again. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.
+	Intelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Master Transmuter (School of Transmutation)</name>
+                    <text>Starting at 14th level, you can use your action to consume the reserve of transmutation magic stored within your transmuter's stone in a single burst. When you do so, choose one of the following effects. Your transmuter's stone is destroyed and can't be remade until you finish a long rest. 
+	 
+Major Transformation.
+	You can transmute one nonmagical object — no larger than a 5-foot cube — into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it. 
+	 
+Panacea.
+	You remove all curses, diseases, and poisons affecting a creature that you touch with the transmuter's stone. The creature also regains all its hit points. 
+	 
+Restore Life.
+	You cast the raise dead spell on a creature you touch with the transmuter's stone, without expending a spell slot or needing to have the spell in your spellbook. 
+	 
+Restore Youth. 
+	You touch the transmuter's stone to a willing creature, and that creature's apparent age is reduced by 3 d 10 years, to a minimum of 13 years. This effect doesn't extend the creature's lifespan.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>15</level>
+                <slots>5,4,3,3,3,2,1,1,1,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>16</level>
+                <slots>5,4,3,3,3,2,1,1,1,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>17</level>
+                <slots>5,4,3,3,3,2,1,1,1,1,</slots>
+            </autolevel>
+            <autolevel>
+                <level>18</level>
+                <slots>5,4,3,3,3,3,1,1,1,1,</slots>
+                <feat>
+                    <name>Spell Mastery</name>
+                    <text>At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+	By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>19</level>
+                <slots>5,4,3,3,3,3,2,1,1,1,</slots>
+            </autolevel>
+            <autolevel>
+                <level>20</level>
+                <slots>5,4,3,3,3,3,2,2,1,1,</slots>
+                <feat>
+                    <name>Signature Spell</name>
+                    <text>When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.
+	If you want to cast either spell at a higher level, you must expend a spell slot as normal.</text>
+                </feat>
+            </autolevel>
+        </class>
+        <background>
+            <name>Hermit</name>
+            <feat>
+                <name>Starting Proficiencies</name>
+                <text>Your background grants you the following proficiencies.
+ 
+Skills: Medicine, Religion
+ 
+Languages: any one of your choice
+ 
+Tools: herbalism kits</text>
+            </feat>
+            <feat>
+                <name>Discovery</name>
+                <text>The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society.
+	Work with your DM to determine the details of your discovery and its impact on the campaign.</text>
+            </feat>
+            <feat>
+                <name>Equipment</name>
+                <text>A scroll case stuffed full of notes from your studies or prayers, a winter blanket, a set of common clothes, an herbalism kit, and 5 gp</text>
+            </feat>
+            <proficiency>114</proficiency>
+            <proficiency>109</proficiency>
+        </background>
+        <xp>0</xp>
+        <abilities>8,10,10,15,13,12,</abilities>
+        <hpMax>6</hpMax>
+        <hpCurrent>8</hpCurrent>
+        <hpTemp>0</hpTemp>
+        <feat>
+            <name>Tough</name>
+            <text>Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.
+ 
+Source: Player's Handbook p. 170</text>
+            <mod>
+                <type>9</type>
+                <value>2</value>
+            </mod>
+        </feat>
+        <item>
+            <name>Component Pouch</name>
+            <text>A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).
+
+Cost: 25 gp
+
+Source: Player's Handbook p. 151</text>
+            <weight>5</weight>
+        </item>
+        <item>
+            <name>Spellbook</name>
+            <text>Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.
+
+Cost: 50 gp
+
+Source: Player's Handbook p. 153</text>
+            <weight>3</weight>
+        </item>
+        <item>
+            <name>Pearl - 100gp</name>
+            <weight>1</weight>
+        </item>
+        <item>
+            <name>Quarterstaff</name>
+            <text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property — the damage when the weapon is used with two hands to make a melee attack.
+
+Cost: 2 sp
+
+Source: Player's Handbook p. 149</text>
+            <type>5</type>
+            <slot>2</slot>
+            <weight>4</weight>
+            <damage1H>1d6</damage1H>
+            <damage2H>1d8</damage2H>
+            <damageType>1</damageType>
+            <weaponProperty>512</weaponProperty>
+            <mod>
+                <type>1</type>
+            </mod>
+        </item>
+        <item>
+            <name>Scholar's Pack</name>
+            <text>Includes:
+	• a backpack
+	• a book of lore
+	• a bottle of ink
+	• an ink pen
+	• 10 sheets of parchment
+	• a little bag of sand
+	• a small knife.
+
+Cost: 40 gp
+
+Source: Player's Handbook p. 151</text>
+            <weight>10</weight>
+        </item>
+        <item>
+            <name>Common Clothes</name>
+            <text>Cost: 5 sp
+
+Source: Player's Handbook p. 150</text>
+            <weight>3</weight>
+        </item>
+        <item>
+            <name>Scroll case with notes</name>
+            <weight>5</weight>
+        </item>
+        <item>
+            <name>Winter Blanket</name>
+            <text>Cost: 5 sp
+
+Source: Player's Handbook p. 150</text>
+            <weight>3</weight>
+        </item>
+        <item>
+            <name>Herbalism Kit</name>
+            <text>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.
+
+Cost: 5 gp
+
+Source: Player's Handbook p. 154</text>
+            <weight>3</weight>
+        </item>
+        <item>
+            <name>Gold (gp)</name>
+            <text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+	With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+	One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+	One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+	In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+	A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook p. 143</text>
+            <type>15</type>
+            <quantity>11</quantity>
+            <weight>0.02</weight>
+        </item>
+        <note>
+            <name>About</name>
+            <text>
+			</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Personality</name>
+            <text>
+            	Mimic's other peoples personalities
+            	Doesn't like the outside
+			</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Ideals</name>
+            <text>
+            	Wants to be left alone
+            	Values freedom
+            </text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Bonds</name>
+            <text>
+            	Childhood home - wants to return
+            </text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Flaws</name>
+            <text>
+            	Agoraphobic
+            </text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Discovery</name>
+            <text>What was Cuddio's discovery?</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Traits / Abilities</name>
+            <text>
+				Arcane Recovery: Once per day you can choose expended spell slots to recover. Must have short rest to do so.
+				Tough:Your hit point maximum increases by two hit points per level gained.
+			</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Proficiencies</name>
+            <text>
+            	Spells: 
+					Cantrips - Fire Bolt, Minor Illusion, Prestidigitation
+					Level One - Color Spray, Disguise Self, Identify, Illusory Script, Tenser's Floating Disk, Thunderwave
+				Weapons - Daggers, Darts, Slings, Quarterstaffs, Light Crossbows.
+
+				Misc - Herbalism Kits
+			</text>
+            <expanded>1</expanded>
+        </note>
+        <imageData>
+            <uniqueID>1033</uniqueID>
+        </imageData>
+    </character>
+</pc>

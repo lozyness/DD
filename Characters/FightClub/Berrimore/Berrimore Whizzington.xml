@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+    <character>
+        <name>Berrimore Whizzington</name>
+        <race>
+            <name>Mountain Dwarf</name>
+            <speed>25</speed>
+            <feat>
+                <name>Darkvision</name>
+                <text>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+            </feat>
+            <feat>
+                <name>Dwarven Resilience</name>
+                <text>You have advantage on saving throws against poison, and you have resistance against poison damage.</text>
+            </feat>
+            <feat>
+                <name>Dwarven Combat Training</name>
+                <text>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</text>
+            </feat>
+            <feat>
+                <name>Tool Proficiency</name>
+                <text>You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.</text>
+            </feat>
+            <feat>
+                <name>Stonecunning</name>
+                <text>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</text>
+            </feat>
+            <feat>
+                <name>Languages</name>
+                <text>You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.</text>
+            </feat>
+            <feat>
+                <name>Dwarven Armor Training</name>
+                <text>You have proficiency with light and medium armor.</text>
+            </feat>
+            <mod>
+                <category>1</category>
+                <type>2</type>
+                <value>2</value>
+            </mod>
+            <mod>
+                <category>1</category>
+                <value>2</value>
+            </mod>
+        </race>
+        <class>
+            <id>1010</id>
+            <name>Barbarian</name>
+            <hd>4</hd>
+            <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            <slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+            <feat>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+ 
+Armor: light armor, medium armor, shields
+ 
+Weapons: simple weapons, martial weapons
+ 
+Tools: none
+ 
+Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</text>
+            </feat>
+            <feat>
+                <name>Starting Equipment</name>
+                <text>You begin play with the following equipment, in addition to any equipment provided by your background.
+ 
+• (a) a greataxe or (b) any martial melee weapon
+• (a) two handaxes or (b) any simple weapon
+• An explorer's pack and four javelins
+ 
+Alternatively, you may start with 2d4 x 10 gp and choose your own equipment.</text>
+            </feat>
+            <feat>
+                <name>Rage</name>
+                <text>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
+	While raging, you gain the following benefits if you aren't wearing heavy armor.
+	
+• You have advantage on Strength checks and Strength saving throws.
+	
+• When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian.  At 1st level, you have a +2 bonus to damage.  Your bonus increases to +3 at 9th level and to +4 at 16th.
+	
+• You have resistance to bludgeoning, piercing, and slashing damage.
+	 
+	If you are able to cast spells, you can't cast them or concentrate on them while raging.
+	Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
+	Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again.  You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.</text>
+            </feat>
+            <feat>
+                <name>Unarmored Defense</name>
+                <text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</text>
+                <mod>
+                    <name>Baseline</name>
+                    <type>10</type>
+                    <value>2</value>
+                </mod>
+                <mod>
+                    <name>+ Dex</name>
+                    <type>10</type>
+                    <value>1</value>
+                </mod>
+                <mod>
+                    <name>+ Con</name>
+                    <value>3</value>
+                </mod>
+            </feat>
+            <proficiency>0</proficiency>
+            <proficiency>107</proficiency>
+            <proficiency>2</proficiency>
+            <proficiency>103</proficiency>
+            <autolevel>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Starting Proficiencies</name>
+                    <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+ 
+Armor: light armor, medium armor, shields
+ 
+Weapons: simple weapons, martial weapons
+ 
+Tools: none
+ 
+Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</text>
+                </feat>
+                <feat>
+                    <name>Starting Equipment</name>
+                    <text>You begin play with the following equipment, in addition to any equipment provided by your background.
+ 
+• (a) a greataxe or (b) any martial melee weapon
+• (a) two handaxes or (b) any simple weapon
+• An explorer's pack and four javelins
+ 
+Alternatively, you may start with 2d4 x 10 gp and choose your own equipment.</text>
+                </feat>
+                <feat>
+                    <name>Rage</name>
+                    <text>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
+	While raging, you gain the following benefits if you aren't wearing heavy armor.
+	
+• You have advantage on Strength checks and Strength saving throws.
+	
+• When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian.  At 1st level, you have a +2 bonus to damage.  Your bonus increases to +3 at 9th level and to +4 at 16th.
+	
+• You have resistance to bludgeoning, piercing, and slashing damage.
+	 
+	If you are able to cast spells, you can't cast them or concentrate on them while raging.
+	Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
+	Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again.  You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.</text>
+                </feat>
+                <feat>
+                    <name>Unarmored Defense</name>
+                    <text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>2</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Reckless Attack</name>
+                    <text>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</text>
+                </feat>
+                <feat>
+                    <name>Danger Sense</name>
+                    <text>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.
+	You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>3</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Primal Path</name>
+                    <text>At 3rd level, you choose a path that shapes the nature of your rage. Choose the Path of the Berserker or the Path of the Totem Warrior.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Path of the Berserker</name>
+                    <text>For some barbarians, rage is a means to an end — that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Frenzy (Path of the Berserker)</name>
+                    <text>Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.
+	 
+Exhaustion:
+	Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.
+	 
+Level — Effect:
+1 —Disadvantage on ability checks
+2 —Speed halved
+3 —Disadvantage on attack rolls and saving throws
+4 —Hit point maximum halved
+5 —Speed reduced to 0
+6 —Death
+	 
+	If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.
+	A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.
+	An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.
+	Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Path of the Totem Warrior</name>
+                    <text>The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.
+	Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Spirit Seeker (Path of the Totem Warrior)</name>
+                    <text>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the beast sense and speak with animals spells, but only as rituals, as described in chapter 10.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Totem Spirit (Path of the Totem Warrior)</name>
+                    <text>At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object- an amulet or similar adornment — that incorporates fur or feathers, claws, teeth, or b ones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thick-skinned, or if your totem is the eagle, your eyes turn bright yellow.
+	Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Totem Spirit: Bear</name>
+                    <text>While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Totem Spirit: Eagle</name>
+                    <text>While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Totem Spirit: Wolf</name>
+                    <text>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>4</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Ability Score Improvement</name>
+                    <text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM uses the optional Feats, you can instead take a feat.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>5</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Extra Attack</name>
+                    <text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+                </feat>
+                <feat>
+                    <name>Fast Movement</name>
+                    <text>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</text>
+                    <mod>
+                        <type>13</type>
+                        <value>10</value>
+                    </mod>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>6</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <optional>1</optional>
+                    <name>Mindless Rage (Path of the Berserker)</name>
+                    <text>Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Aspect of the Beast (Path of the Totem Warrior)</name>
+                    <text>At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Aspect of the Beast: Bear</name>
+                    <text>You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Aspect of the Beast: Eagle</name>
+                    <text>You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Aspect of the Beast: Wolf</name>
+                    <text>You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>7</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Feral Instinct</name>
+                    <text>By 7th level, your instincts are so honed that you have advantage on initiative rolls.
+	Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>8</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>9</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Brutal Critical</name>
+                    <text>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.
+	This increases to two additional dice at 13th level and three additional dice at 17th level.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>10</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <optional>1</optional>
+                    <name>Intimidating Presence (Path of the Berserker)</name>
+                    <text>Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.
+	If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.
+	 
+Frightened:
+• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.
+	
+• The creature can't willingly move closer to the source of its fear.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Spirit Walker (Path of the Totem Warrior)</name>
+                    <text>At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>11</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Relentless Rage</name>
+                    <text>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.
+	Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>12</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>13</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>14</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <optional>1</optional>
+                    <name>Retaliation (Path of the Berserker)</name>
+                    <text>Starting at 14th level, when you take damage from a creature that is within 5 feet of you. you can use your reaction to make a melee weapon attack against that creature.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Totemic Attunement (Path of the Totem Warrior)</name>
+                    <text>At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Totemic Attunement: Bear </name>
+                    <text>While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Totemic Attunement: Eagle</name>
+                    <text>While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Totemic Attunement: Wolf</name>
+                    <text>While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.
+	 
+Prone:
+• A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.
+	
+• The creature has disadvantage on attack rolls.
+	
+• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>15</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Persistent Rage</name>
+                    <text>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>16</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>17</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>18</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Indomitable Might</name>
+                    <text>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>19</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>20</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Primal Champion</name>
+                    <text>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</text>
+                    <mod>
+                        <category>1</category>
+                        <value>4</value>
+                    </mod>
+                    <mod>
+                        <category>1</category>
+                        <type>2</type>
+                        <value>4</value>
+                    </mod>
+                </feat>
+            </autolevel>
+        </class>
+        <background>
+            <name>Folk Hero</name>
+            <feat>
+                <name>Starting Proficiencies</name>
+                <text>Your background grants you the following proficiencies.
+ 
+Skills: Animal Handling, Survival
+ 
+Languages: none
+ 
+Tools: one type of artisan's tools, land vehicles</text>
+            </feat>
+            <feat>
+                <name>Rustic Hospitality</name>
+                <text>Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.</text>
+            </feat>
+            <feat>
+                <name>Equipment</name>
+                <text>A set of artisan's tools (one of your choice), a shovel, an iron pot, a set of common clothes, and a belt pouch containing 10 gp</text>
+            </feat>
+            <proficiency>117</proficiency>
+            <proficiency>101</proficiency>
+        </background>
+        <xp>0</xp>
+        <abilities>17,12,15,9,8,15,</abilities>
+        <hpMax>13</hpMax>
+        <hpCurrent>13</hpCurrent>
+        <hpTemp>0</hpTemp>
+        <item>
+            <name>Smith's Tools</name>
+            <text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
+
+Cost: 20 gp
+
+Source: Player's Handbook p. 154</text>
+            <weight>8</weight>
+        </item>
+        <item>
+            <name>Shovel</name>
+            <text>Cost: 2 gp
+
+Source: Player's Handbook p. 150</text>
+            <weight>5</weight>
+        </item>
+        <item>
+            <name>Iron Pot</name>
+            <text>An iron pot holds 1 gallon of liquid.
+
+Cost: 2 gp
+
+Source: Player's Handbook p. 153</text>
+            <weight>10</weight>
+        </item>
+        <item>
+            <name>Common Clothes</name>
+            <text>Cost: 5 sp
+
+Source: Player's Handbook p. 150</text>
+            <weight>3</weight>
+        </item>
+        <item>
+            <name>Gold (gp)</name>
+            <text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+	With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+	One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+	One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+	In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+	A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook p. 143</text>
+            <type>15</type>
+            <quantity>66</quantity>
+            <weight>0.02</weight>
+        </item>
+        <item>
+            <name>Belt Pouch</name>
+            <text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear.
+
+Cost: 5 sp
+
+Source: Player's Handbook p. 153</text>
+            <weight>1</weight>
+        </item>
+        <item>
+            <name>Greataxe</name>
+            <text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.
+	
+Two-Handed: This weapon requires two hands to use.  When not attacking, you may hold the weapon in one hand.
+
+Cost: 30 gp
+
+Source: Player's Handbook p. 149</text>
+            <type>5</type>
+            <slot>3</slot>
+            <weight>7</weight>
+            <damage1H>1d12</damage1H>
+            <damageType>3</damageType>
+            <weaponProperty>260</weaponProperty>
+            <mod>
+                <type>1</type>
+            </mod>
+        </item>
+        <item>
+            <name>Handaxe</name>
+            <text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.
+	
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+	
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Cost: 5 gp
+
+Source: Player's Handbook p. 149</text>
+            <type>5</type>
+            <quantity>2</quantity>
+            <weight>2</weight>
+            <damage1H>1d6</damage1H>
+            <damageType>3</damageType>
+            <weaponProperty>136</weaponProperty>
+            <weaponRange>20</weaponRange>
+            <weaponLongRange>60</weaponLongRange>
+            <mod>
+                <type>1</type>
+            </mod>
+        </item>
+        <item>
+            <name>Explorer's Pack</name>
+            <text>Includes:
+	• a backpack
+	• a bedroll
+	• a mess kit
+	• a tinderbox
+	• 10 torches
+	• 10 days of rations
+	• a waterskin
+	• 50 feet of hempen rope
+
+Cost: 10 gp
+
+Source: Player's Handbook p. 151</text>
+            <weight>59</weight>
+        </item>
+        <item>
+            <name>Javelin</name>
+            <text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+	
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Cost: 5 sp
+
+Source: Player's Handbook p. 149</text>
+            <type>5</type>
+            <quantity>4</quantity>
+            <weight>2</weight>
+            <damage1H>1d6</damage1H>
+            <damageType>2</damageType>
+            <weaponProperty>128</weaponProperty>
+            <weaponRange>30</weaponRange>
+            <weaponLongRange>120</weaponLongRange>
+            <mod>
+                <type>1</type>
+            </mod>
+        </item>
+        <item>
+            <name>Leather Armor</name>
+            <text>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.
+
+Cost: 10 gp
+
+Source: Player's Handbook p. 144</text>
+            <type>1</type>
+            <slot>-1</slot>
+            <weight>10</weight>
+            <ac>11</ac>
+        </item>
+        <note>
+            <name>Personality</name>
+            <text>Always tries to be careful - rarely succeeds
+Easy to fly off the handle
+Overly confident in own abilities</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Ideals</name>
+            <text>Dwarfs are as good as any other race - will try to prove this</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Bonds</name>
+            <text>Sister</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Flaws</name>
+            <text>Will react badly if his sister is ever attacked - without considering the consequences</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Traits / Abilities</name>
+            <text>
+Darkvision: can see - dim as if bright, dark as though dim
+
+Origin of Stone: + 2x prof bonus
+
+Rage (when not wearing heavy armour):  
+    Adv to Strength checks / saving thows
+    +2 bonus to damage roll
+    Resistance to Bludgeoning, Piercing, Slashing damage
+
+Unarmoured Defense: When wearing no armour your AC = 10 + Dex + Con (Can still wear sheild)
+
+Rustic Hospitality: You can find a place to hide, rest, or recuperate among other commoners.
+Will hide you from the law / anyone else but will not risk their lives for you.
+</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Proficiencies</name>
+            <text>
+Armour - Light, Medium, Shields
+
+Weapons - Simple Weapons, Martial Weapons, Battleaxe, Handaxe, Light Hammer, Warhammer.
+
+Misc - Land Vehicles, Smith's Tools, Mason's Tools
+
+Resistance - Poison Damage
+
+Bonus to Saving Throws - Poison
+</text>
+            <expanded>1</expanded>
+        </note>
+        <imageData>
+            <uniqueID>1024</uniqueID>
+        </imageData>
+    </character>
+</pc>

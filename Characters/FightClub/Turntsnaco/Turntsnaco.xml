@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+    <character>
+        <name>Turntsnaco</name>
+        <race>
+            <name>Human</name>
+            <feat>
+                <name>Languages</name>
+                <text>You can speak, read, and write Common and Elvish. Humans are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
+            </feat>
+            <mod>
+                <category>1</category>
+                <type>3</type>
+                <value>1</value>
+            </mod>
+            <mod>
+                <category>1</category>
+                <type>4</type>
+                <value>1</value>
+            </mod>
+            <mod>
+                <category>1</category>
+                <type>2</type>
+                <value>1</value>
+            </mod>
+            <mod>
+                <category>1</category>
+                <value>1</value>
+            </mod>
+            <mod>
+                <category>1</category>
+                <type>1</type>
+                <value>1</value>
+            </mod>
+            <mod>
+                <category>1</category>
+                <type>5</type>
+                <value>1</value>
+            </mod>
+        </race>
+        <class>
+            <id>1011</id>
+            <name>Rogue</name>
+            <hd>2</hd>
+            <spellAbility>3</spellAbility>
+            <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            <slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+            <feat>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+ 
+Armor: light armor
+ 
+Weapons: simple weapons, hand crossbows, longswords, rapiers, shortswords
+ 
+Tools: thieves' tools
+ 
+Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</text>
+            </feat>
+            <feat>
+                <name>Starting Equipment</name>
+                <text>You begin play with the following equipment, in addition to any equipment provided by your background.
+ 
+• (a) a rapier or (b) a shortsword
+• (a) a shortbow and quiver of 20 arrows or (b) a shortsword
+• (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack
+• Leather armor, two daggers, and thieves' tools 
+ 
+Alternatively, you may start with 4d4 x 10 gp and choose your own equipment.</text>
+            </feat>
+            <feat>
+                <name>Expertise</name>
+                <text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+	At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
+            </feat>
+            <feat>
+                <name>Sneak Attack</name>
+                <text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+	You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.
+	The amount of the extra damage increases by 1d6 every odd level you gain in this class, to a maximum of 10d6 at 19th level.</text>
+            </feat>
+            <feat>
+                <name>Thieves' Cant</name>
+                <text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.
+	In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
+            </feat>
+            <mod>
+                <category>2</category>
+                <type>1</type>
+            </mod>
+            <mod>
+                <category>2</category>
+                <type>1</type>
+            </mod>
+            <mod>
+                <category>2</category>
+                <type>3</type>
+            </mod>
+            <mod>
+                <category>2</category>
+                <type>3</type>
+            </mod>
+            <proficiency>3</proficiency>
+            <proficiency>104</proficiency>
+            <proficiency>100</proficiency>
+            <proficiency>111</proficiency>
+            <proficiency>1</proficiency>
+            <proficiency>113</proficiency>
+            <autolevel>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Starting Proficiencies</name>
+                    <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+ 
+Armor: light armor
+ 
+Weapons: simple weapons, hand crossbows, longswords, rapiers, shortswords
+ 
+Tools: thieves' tools
+ 
+Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</text>
+                </feat>
+                <feat>
+                    <name>Starting Equipment</name>
+                    <text>You begin play with the following equipment, in addition to any equipment provided by your background.
+ 
+• (a) a rapier or (b) a shortsword
+• (a) a shortbow and quiver of 20 arrows or (b) a shortsword
+• (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack
+• Leather armor, two daggers, and thieves' tools 
+ 
+Alternatively, you may start with 4d4 x 10 gp and choose your own equipment.</text>
+                </feat>
+                <feat>
+                    <name>Expertise</name>
+                    <text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+	At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
+                </feat>
+                <feat>
+                    <name>Sneak Attack</name>
+                    <text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+	You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.
+	The amount of the extra damage increases by 1d6 every odd level you gain in this class, to a maximum of 10d6 at 19th level.</text>
+                </feat>
+                <feat>
+                    <name>Thieves' Cant</name>
+                    <text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.
+	In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>2</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Cunning Action</name>
+                    <text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>3</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>3,2,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Roguish Archetype</name>
+                    <text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Arcane Trickster</name>
+                    <text>Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Spellcasting (Arcane Trickster)</name>
+                    <text>When you reach 3rd level, you gain the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list. 
+	 
+Cantrips: You learn three cantrips: mage hand and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level. 
+	 
+Spell Slots: The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+	For example. if you know the 1st-level spell charm person and have a 1st-level and a 2nd-level spell slot available, you can cast charm person using either slot. 
+	 
+Spells Known of 1st-Level and Higher: You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list. 
+	The Spells Known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this c1ass. you can learn one new spell of 1st or 2nd level. 
+	The spells you learn at 8th. 14th, and 20th level can come from any school of magic. 
+	Whenever you gain a level in this c1ass, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level. 
+	 
+Spellcasting Ability: Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one. 
+	 
+Spell save DC = 8+your proficiency bonus+your Intelligence modifier 
+	Spell attack modifier = your proficiency bonus+your Intelligence modifier</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Mage Hand Legerdemain (Arcane Trickster)</name>
+                    <text>Starting at 3rd level, when you cast mage hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it.
+	
+• You can stow one object the hand is holding in a container worn or carried by another creature.
+	
+• You can retrieve an object in a container worn or carried by another creature.
+	
+• You can use thieves' tools to pick locks and disarm traps at range.
+	 
+	You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.
+	In addition, you can use the bonus action granted by your Cunning Action to control the hand.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Assassin</name>
+                    <text>You focus your training on the grim art of death. Those who adhere to this archetype are diverse: hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Bonus Proficiencies (Assassin)</name>
+                    <text>When you join the College of Lore at 3rd level, you gain proficiency with three skills of your choice.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Assassinate (Assassin)</name>
+                    <text>Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Swashbuckler</name>
+                    <text>You focus your training on the art of the blade, relying on speed, elegance, and charisma in equal parts. While other warriors are brutes clad in heavy armor, your method of fighting looks more like performance. Rakes, duelists, and pirates typically follow this archetype.
+	A swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent. Swashbucklers are especially talented at making difficult maneuvers to escape enemies or attack from an unexpected direction.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Fancy Footwork (Swashbuckler)</name>
+                    <text>Starting at 3rd level, you are a continuous blur of motion in battle as you dart in, attack, and slip away to safety. During your turn, if you make a melee attack against a creature, that creature cannot make opportunity attacks against you for the rest of your turn.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Toujours l'Audace (Swashbuckler)</name>
+                    <text>At 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls. 
+	In addition, you can use Sneak Attack with any melee attack made against a target that has none of your allies adjacent to it.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Thief</name>
+                    <text>You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Fast Hands (Thief)</name>
+                    <text>Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Second-Story Work (Thief)</name>
+                    <text>When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.
+	In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>4</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>3,3,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Ability Score Improvement</name>
+                    <text>When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM uses the optional Feats, you can instead take a feat.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>5</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>3,3,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Uncanny Dodge</name>
+                    <text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>6</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>3,3,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>7</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>3,4,2,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Evasion</name>
+                    <text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>8</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>3,4,2,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>9</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>3,4,2,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <optional>1</optional>
+                    <name>Magical Ambush (Arcane Trickster)</name>
+                    <text>Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Infiltration Expertise (Assassin)</name>
+                    <text>Starting at 9th level, you can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official-looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants.
+	Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Panache (Swashbuckler)</name>
+                    <text>At 9th level, your charm becomes as sharp and dangerous as your blade. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language. 
+	If you succeed on the check and the creature is hostile, it must target you with any attacks it makes and cannot willingly move farther away from you. This effect lasts for 1 minute or until you move more than 60 feet away from the target. 
+	If you succeed on the check and the creature is not hostile, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance.
+	 
+Charmed:
+• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.
+	
+• The charmer has advantage on any ability check to interact socially with the creature.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Supreme Sneak (Thief)</name>
+                    <text>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>10</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>4,4,3,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>11</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>4,4,3,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Reliable Talent</name>
+                    <text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>12</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>4,4,3,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>13</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>4,4,3,2,0,0,0,0,0,0,</slots>
+                <feat>
+                    <optional>1</optional>
+                    <name>Versatile Trickster (Arcane Trickster)</name>
+                    <text>At 13th level, you gain the ability to distract targets with your mage hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Imposter (Assassin)</name>
+                    <text>At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms.
+	Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Elegant Maneuver (Swashbuckler)</name>
+                    <text>You complete difficult maneuvers with practiced ease. Starting at 13th level, you can use a bonus action to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make on your turn.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Use Magic Device (Thief)</name>
+                    <text>By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>14</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>4,4,3,2,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Blindsense</name>
+                    <text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>15</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>4,4,3,2,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Slippery Mind</name>
+                    <text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</text>
+                    <proficiency>4</proficiency>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>16</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>4,4,3,3,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>17</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>4,4,3,3,0,0,0,0,0,0,</slots>
+                <feat>
+                    <optional>1</optional>
+                    <name>Spell Thief (Arcane Trickster)</name>
+                    <text>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.
+	Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.
+	Once you use this feature, you can't use it again until you finish a long rest.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Death Strike (Assassin)</name>
+                    <text>Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Master Duelist (Swashbuckler)</name>
+                    <text>At 17th level your mastery of the blade lets you turn failure to success in combat. If you miss with an attack, you can choose to roll the attack again with advantage. Once you use this ability, you cannot use it again until you finish a short or long rest.</text>
+                </feat>
+                <feat>
+                    <optional>1</optional>
+                    <name>Thief's Reflexes (Thief)</name>
+                    <text>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>18</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>4,4,3,3,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Elusive</name>
+                    <text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>19</level>
+                <spellSlotsOptional>1</spellSlotsOptional>
+                <slots>4,4,3,3,1,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>20</level>
+                <slots>4,4,3,3,1,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Stroke of Luck</name>
+                    <text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.
+	Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+                </feat>
+            </autolevel>
+        </class>
+        <background>
+            <name>Charlatan</name>
+            <feat>
+                <name>Starting Proficiencies</name>
+                <text>Your background grants you the following proficiencies.
+ 
+Skills: Deception, Sleight of Hand
+ 
+Languages: none
+ 
+Tools: disguise kits, forgery kits</text>
+            </feat>
+            <feat>
+                <name>False Identity</name>
+                <text>You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</text>
+            </feat>
+            <feat>
+                <name>Equipment</name>
+                <text>A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt pouch containing 15 gp</text>
+            </feat>
+            <proficiency>115</proficiency>
+            <proficiency>104</proficiency>
+        </background>
+        <xp>0</xp>
+        <abilities>9,12,11,12,9,5,</abilities>
+        <hpMax>8</hpMax>
+        <hpCurrent>8</hpCurrent>
+        <hpTemp>0</hpTemp>
+        <item>
+            <name>Fine Clothes</name>
+            <text>Cost: 15 gp
+
+Source: Player's Handbook p. 150</text>
+            <weight>6</weight>
+        </item>
+        <item>
+            <name>Rapier</name>
+            <text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Cost: 25 gp
+
+Source: Player's Handbook p. 149</text>
+            <type>5</type>
+            <slot>2</slot>
+            <weight>2</weight>
+            <damage1H>1d8</damage1H>
+            <damageType>2</damageType>
+            <weaponProperty>2</weaponProperty>
+            <mod>
+                <type>1</type>
+            </mod>
+        </item>
+        <item>
+            <name>Shortbow</name>
+            <text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+	If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way.
+	
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+	
+Two-Handed: This weapon requires two hands to use.  When not attacking, you may hold the weapon in one hand.
+
+Cost: 25 gp
+
+Source: Player's Handbook p. 149</text>
+            <type>6</type>
+            <weight>2</weight>
+            <damage1H>1d6</damage1H>
+            <damageType>2</damageType>
+            <weaponProperty>257</weaponProperty>
+            <weaponRange>80</weaponRange>
+            <weaponLongRange>320</weaponLongRange>
+            <mod>
+                <type>1</type>
+            </mod>
+        </item>
+        <item>
+            <name>Leather Armor</name>
+            <text>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.
+
+Cost: 10 gp
+
+Source: Player's Handbook p. 144</text>
+            <type>1</type>
+            <slot>5</slot>
+            <weight>10</weight>
+            <ac>11</ac>
+        </item>
+        <item>
+            <name>Disguise Kit</name>
+            <text>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.
+
+Cost: 25 gp
+
+Source: Player's Handbook p. 154</text>
+            <weight>3</weight>
+        </item>
+        <item>
+            <name>Dice Set - Weighted</name>
+            <text>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.
+
+Cost: 1 sp
+
+Source: Player's Handbook p. 154</text>
+            <weight>0</weight>
+        </item>
+        <item>
+            <name>Gold (gp)</name>
+            <text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+	With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+	One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+	One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+	In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+	A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook p. 143</text>
+            <type>15</type>
+            <quantity>102</quantity>
+            <weight>0.02</weight>
+        </item>
+        <item>
+            <name>Burglar's Pack</name>
+            <text>Includes:
+	• a backpack
+	• a bag of 1,000 ball bearings
+	• 10 feet of string
+	• a bell
+	• 5 candles
+	• a crowbar
+	• a hammer
+	• 10 pitons
+	• a hooded lantern
+	• 2 flasks of oil
+	• 5 days rations
+	• a tinderbox
+	• a waterskin
+	• 50 feet of hempen rope
+
+Cost: 16 gp
+
+Source: Player's Handbook p. 151</text>
+            <weight>44.5</weight>
+        </item>
+        <item>
+            <name>Thieves' Tools</name>
+            <text>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.
+
+Cost: 25 gp
+
+Source: Player's Handbook p. 154</text>
+            <weight>1</weight>
+        </item>
+        <item>
+            <name>Arrows</name>
+            <text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+Cost: 20 for 1 gp
+
+Source: Player's Handbook p. 150</text>
+            <type>7</type>
+            <quantity>20</quantity>
+            <weight>0.05</weight>
+        </item>
+        <note>
+            <name>About</name>
+            <text>
+            	Left Handed
+            	Raised in a brothel
+            	Distrustful of humans
+            	Claims to have killed but hasn't
+			</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Personality</name>
+            <text>
+            	Distrustful of humans
+            	Trusts elves
+            	Won't ditch party
+			</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Ideals</name>
+            <text>
+            	Humans suck
+            	Elves rule
+            </text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Bonds</name>
+            <text>
+            	Parents
+            	Chullip
+            </text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Flaws</name>
+            <text>
+            	Afraid of birds
+            	Impatient
+            </text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Traits / Abilities</name>
+            <text>
+				Sneak Attack: Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+
+				Thieves' Cant: You can hide messages in seemingly normal conversation. 
+				In addition, you understand a set of secret signs and symbols used to convey short, simple messages
+				
+				False Identity: You have a second identity and you can forge documents
+			</text>
+            <expanded>1</expanded>
+        </note>
+        <note>
+            <name>Proficiencies</name>
+            <text>
+				Armour - Light
+
+				Weapons - Simple Weapons, Hand Crossbowa, Longswords, Rapiers, Shortswords.
+
+				Misc - Thieves's Tools, Disguise Kits, Forgery Kits
+			</text>
+            <expanded>1</expanded>
+        </note>
+        <imageData>
+            <uniqueID>1032</uniqueID>
+        </imageData>
+    </character>
+</pc>
